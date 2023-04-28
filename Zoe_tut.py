@@ -23,7 +23,7 @@ word = "hello"
 
 # try making a a string object called name and put your name as a string inside.
 
-# =======================replace this line with your object===============================
+name = 'zoe'
 
 now that you made your name object we are going to make a sentence using iter
 
