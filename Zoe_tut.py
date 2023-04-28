@@ -16,3 +16,12 @@ and then pressing ctl + /
 box = 1
 
 # in the example below I made an object and since I put a 1 inside it's a certain type of object called an integer which just means whole number
+
+word = "hello"
+
+# this guy is an object called word and I put a string inside it which just means text, in order to make a string you need to put quotes around it ""
+
+# try making a a string object called name and put your name as a string inside.
+
+# =======================replace this line with your object===============================
+
