@@ -6,6 +6,7 @@ class Game:
         pygame.init()
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
         self.clock = pygame.time.Clock()
+        self.caption =  pygame.display.set_caption('Zoe carrot')
 
     def run(self):
         while True:
