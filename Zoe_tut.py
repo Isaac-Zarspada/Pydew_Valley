@@ -25,14 +25,14 @@ word = "hello"
 
 name = 'zoe'
 
-now that you made your name object we are going to make a sentence using iter
+now that you made your name object we are going to make a sentence using 
 
 here is a sentence object fill out the objects below with strings #don't forget to comment out the errors and comments
 
 pau_name
 
 #make this sentence into an object called sentence and make sure it's in quotes like a string should be.
-f{pau_name} smells like fishies when she doesn't shower - f{} 
+f{pau_name} smells like fishies when she doesn't shower - f{name} 
 
 
 
