@@ -3,10 +3,10 @@
 
 # this line right here starts with a hashtag, in python a hastag tells the computer to ignore the text
 
-you can comment multiple lines
-at the same time by highlighting
-the stuff you want to comment out
-and then pressing ctl + / 
+# you can comment multiple lines
+# at the same time by highlighting
+# the stuff you want to comment out
+# and then pressing ctl + / 
 
 # next we're going to talk about simple stuff like objects
 # so think of an object as a box, you can put different things in
