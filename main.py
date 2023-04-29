@@ -7,7 +7,7 @@ class Game:
         pygame.init()
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
         self.clock = pygame.time.Clock()
-        self.caption =  pygame.display.set_caption('Zoe carrot')
+        self.caption =  pygame.display.set_caption('Paulina Sardines')
         self.level = Level()
 
     def run(self):
@@ -18,7 +18,7 @@ class Game:
                     sys.exit()
 
             dt = self.clock.tick() / 1000
-            self.level.run()
+            self.level.run(dt)
             pygame.display.update()
 
 if __name__ == '__main__':
