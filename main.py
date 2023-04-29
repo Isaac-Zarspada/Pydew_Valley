@@ -1,5 +1,6 @@
 import pygame, sys
 from settings import *
+from level import Level
 
 class Game:
     def __init__(self):
@@ -7,6 +8,7 @@ class Game:
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
         self.clock = pygame.time.Clock()
         self.caption =  pygame.display.set_caption('Zoe carrot')
+        self.level = Level()
 
     def run(self):
         while True:
@@ -16,6 +18,7 @@ class Game:
                     sys.exit()
 
             dt = self.clock.tick() / 1000
+            self.level.run()
             pygame.display.update()
 
 if __name__ == '__main__':
