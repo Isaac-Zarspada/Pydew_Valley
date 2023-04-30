@@ -38,12 +38,7 @@ class Player(pygame.sprite.Sprite):
             print('right')
             self.direction.x = 1
         else:
-            self.direction.x=0
-
-    def move(self, dt):
-        self.pos += self.direction * self.speed * dt
-        self.rect.center = self.pos
-    
+            self.direction.y=0
+        print(self.direction)
     def update(self, dt):
         self.input()
-        self.move(dt)
