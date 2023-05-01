@@ -15,7 +15,7 @@ class Player(pygame.sprite.Sprite):
         self.pos = pygame.math.Vector2(self.rect.center)
         self.speed = 200
 
-
+   
     def import_assets():
         pass
 
