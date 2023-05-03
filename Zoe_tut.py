@@ -32,7 +32,9 @@ name = 'zoe'
 pau_name= 'paulina'
 
 #make this sentence into an object called sentence and make sure it's in quotes like a string should be.
-sentence = f"{pau_name} smells like fishies when she doesn't shower - {name}."
-
+sentence = f"{pau_name} smells like fishies when she doesn't shower - zoe"
 print(sentence)
+sentence= f " {zoe} smells bad allll the time beacause she puts on plurme every day to smell good but she smell likes a rusty crusty and musty plat that is on rotten cheese and she take for ever to make her look good -_- - paulina :)
+
+school sucks beacause we are just on our compters - paulina
 
